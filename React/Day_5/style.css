@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2opx;
+}
+
+.images{
+    position: relative;
+    left: 60px;
+   
+}
+
+.option{
+    padding-top: 30px;
+}
+.btn , .pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.Profile {
+    padding-top: 30px;
+    padding-right: 20px;
+
+}
+.middle{
+    background-color: rgb(246,246,241);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(25, 105, 25);
+    color: white;
+}
+
+button{
+    height: 50px;
+    background-color: orange;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 3px solid white;
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 22px;
+    color: rgb(255, 94, 0);
+}
+
+.footer-left p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
