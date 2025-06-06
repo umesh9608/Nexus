@@ -1,0 +1,2 @@
+Q.1 reactslicer.action kay hota hai?
+:-jab bhi mai dispatch krta hun ki mujhe es function ko ececute kranna hai or wo mare store ke pass jata hai  to sabse phle store to determine krna hota hia ki ye kis slice ka part hai normal function se mai execute nhi kra skta esliye mai action ko export krata hun esliye mai actions ko export krata hun or actions apka automatically increment.decrement,reset ko action me convert kra deta hai wo bta deta hia increment,dectement,reset konsa slice ka part hia to unko {type:"slice1/Increment", playload:undefined}; me convert kr deta hia 
