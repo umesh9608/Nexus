@@ -1,0 +1,43 @@
+what mean by server: 
+    client/user:- jisko services chahiye(jo data ko reques krega)
+    server:jo data ko dega
+    socket:combination of ip address + port no
+    (replay milne ke baad socket remove ho jata hai or phir new req ke liye now socket bnta h)
+
+http: 80 (port no)
+https:443 (port no)
+
+server listen: http server 80 port no pr listen kr rha hai ka matlab 80 no port pr koi request too nhi kr rha hia
+
+why we need port not:it define which application i show your request(device ke ander bhut sare app h to kon se app me data show krana hai ye port no se decide hota hai)
+
+Three way handshake: is a fundamental process in TCP/IP network used to establish a reliable connection between a client and server 
+deploy code into server:
+
+
+/////////////////////////////////////////////////////
+❓ What is the problem in JavaScript (normal JS) for creating a server?
+✅ JavaScript normally runs only in the browser.
+
+That means:
+
+It can only handle frontend — showing buttons, images, forms, etc.
+
+It cannot access files, databases, or network ports — so it cannot create or manage a server.
+
+👉 So normal JavaScript can't create a backend server.
+
+🛠 Why we use Node.js to solve this?
+Node.js gives JavaScript the power to run outside the browser, on your computer/server.
+
+With Node.js, you can:
+
+Create a web server
+
+Connect to a database
+
+Handle API requests
+
+Read/write files
+
+Do anything like Python, PHP, or Java
